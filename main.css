@@ -7,16 +7,17 @@ div.nav {
   bottom: 1rem;
   margin: 0.5rem 0.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: white;
   font-family: "Montserrat", sans-serif;
   color: black;
   border-radius: 1rem;
   box-shadow: 0px 0px 16px rgba(55, 130, 171, 0.2);
+  width: 80%;
 }
 div.navItem {
-  width: 50px;
-  padding: 1rem 1.5rem;
+  min-width: 50px;
+  padding: 1rem 0.8rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -32,8 +33,10 @@ div.navIcon {
   color: #aaa;
 }
 p.nav {
+  font-size: 0.8rem;
   font-family: "Montserrat", sans-serif;
   margin: 0rem 0rem 0rem 0rem;
+  text-align: center;
 }
 div.contentContainer {
   width: 100%;
