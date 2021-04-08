@@ -26,7 +26,7 @@
         <div class="navItem isActive">
           <div class="navIcon">
             <span class="material-icons">
-              book
+              terrain
             </span>
           </div>
           <div class="navLabel">
@@ -40,7 +40,7 @@
         <div class="navItem isInactive">
           <div class="navIcon">
             <span class="material-icons">
-              view_in_ar
+              cottage
             </span>
           </div>
           <div class="navLabel">
@@ -54,7 +54,7 @@
         <div class="navItem isInactive">
           <div class="navIcon">
             <span class="material-icons">
-              smart_display
+              person
             </span>
           </div>
           <div class="navLabel">
@@ -67,9 +67,43 @@
     </div>
     <div class="contentContainer">
       <div class="header">
-        <h2>The Waterpocket Fold</h2>
+        <h1>The Waterpocket Fold</h1>
       </div>
-      
+      <div class="modelViewer">
+        <model-viewer
+          src="assets/earth_ball.gltf"
+          camera-controls
+          autoplay
+          auto-rotate
+          ar
+          ios-src="assets/low-poly_truck_car_drifter.usdz"
+        ></model-viewer>
+      </div>
+      <div class="navigationButtons">
+        <a href="cowboy.html">
+          <div class="navigationButton">
+            <span class="material-icons">
+              navigate_before
+            </span>
+            <p class="button">Back</p>
+          </div>
+        </a>
+        <a href="cabin.html">
+          <div class="navigationButton">
+            <p class="button">Forward</p>
+            <span class="material-icons">
+              navigate_next
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="textContainer">
+        <h2>Lurt's Jeep</h2>
+        <p class="body">
+          The ranch and Lurt's Jeep tours to remote slickrock wonders were
+          featured in magazines like Arizona Highways.
+        </p>
+      </div>
     </div>
   </body>
 </html>

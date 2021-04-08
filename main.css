@@ -99,8 +99,14 @@ h2 {
   margin: 0px;
   color: #000;
 }
+h3 {
+  font-family: "Sansita", serif;
+  margin: 0px;
+  color: #000;
+}
 p.body {
   font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
   margin: 0.5rem 0rem 0rem 0rem;
   color: #000;
 }
