@@ -66,6 +66,19 @@ model-viewer {
   height: 300px;
   margin: 0 auto;
 }
+button.arButton {
+  background-color: #4D91F6;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
 div.navigationButtons {
   display: flex;
   justify-content: center;
