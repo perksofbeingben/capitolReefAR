@@ -47,14 +47,12 @@ div.contentContainer {
 }
 div.header {
   display: flex;
-  justify-content: center;
-  padding: 1rem 2rem;
+  padding: 1rem 0.5rem;
 }
 h1 {
   font-family: "Sansita", serif;
   margin: 0px;
   color: #000;
-  text-align: center;
 }
 div.modelViewer {
   display: flex;
@@ -68,7 +66,7 @@ model-viewer {
   margin: 0 auto;
 }
 button.arButton {
-  background-color: #4D91F6;
+  background-color: #f6b24d;
   color: #fff;
   border-radius: 4px;
   border: none;
@@ -78,22 +76,21 @@ button.arButton {
   padding: 0.5rem 1rem;
   position: absolute;
   bottom: 1rem;
-  left: 1rem;
+  left: 0rem;
 }
 div.navigationButtons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 div.navigationButton {
-  background-color: #F6B14D;
+  border: solid 2px #4d91f6;
   border-radius: 8px;
-  box-shadow: 2px 2px 20px rgba(39, 4, 59, 0.171);
-  padding: 0.8rem 1.2rem;
-  margin: 1rem;
+  padding: 0.4rem 1rem;
+  margin: 0.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #000;
+  color: #4d91f6;
 }
 a {
   text-decoration: none;
@@ -103,10 +100,7 @@ p.button {
   margin: 0.2rem;
 }
 div.textContainer {
-  background-color: #E4F1FE;
-  border-radius: 8px;
-/*   box-shadow: 2px 2px 20px rgba(39, 4, 59, 0.171); */
-  padding: 1.5rem 2rem;
+  padding: 0rem;
   margin: 0.5rem;
 }
 h2 {
@@ -128,5 +122,13 @@ p.body {
 @media only screen and (max-width: 600px) {
   model-viewer {
     height: 350px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  div.header {
+    justify-content: center;
+  }
+  h1 {
+    text-align: center;
   }
 }
