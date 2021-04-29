@@ -119,6 +119,12 @@ p.body {
   margin: 0.5rem 0rem 0rem 0rem;
   color: #000;
 }
+p.caption {
+  font-family: "Roboto Slab", serif;
+  font-size: 0.8rem;
+  margin: 0.5rem 0rem 0rem 0rem;
+  color: #000;
+}
 iframe {
   margin-left: auto;
   margin-right: auto;
