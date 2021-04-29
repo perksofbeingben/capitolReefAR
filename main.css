@@ -50,7 +50,7 @@ div.header {
   padding: 1rem 0.5rem;
 }
 h1 {
-  font-family: "Sansita", serif;
+  font-family: "Roboto Slab", serif;
   margin: 0px;
   color: #000;
 }
@@ -96,7 +96,7 @@ a {
   text-decoration: none;
 }
 p.button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   margin: 0.2rem;
 }
 div.textContainer {
@@ -104,18 +104,18 @@ div.textContainer {
   margin: 0.5rem;
 }
 h2 {
-  font-family: "Sansita", serif;
+  font-family: "Roboto Slab", serif;
   margin: 0px;
   color: #000;
 }
 h3 {
-  font-family: "Sansita", serif;
+  font-family: "Roboto Slab", serif;
   margin: 0px;
   color: #000;
 }
 p.body {
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
+  font-family: "EB Garamond", sans-serif;
+  font-size: 1.2rem;
   margin: 0.5rem 0rem 0rem 0rem;
   color: #000;
 }
