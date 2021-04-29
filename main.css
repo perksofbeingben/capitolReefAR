@@ -73,12 +73,13 @@ button.arButton {
   font-weight: 500;
   position: absolute;
   bottom: 1rem;
-  
+  border-radius: 4px;
+  background-color: #f6b24d;
 }
 div.arButton {
-  background-color: #f6b24d;
+  
   padding: 0.5rem 1rem;
-  border-radius: 4px;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,7 +92,7 @@ div.navigationButton {
   border: solid 2px #4d91f6;
   border-radius: 8px;
   padding: 0.4rem 1rem;
-  margin: 0.5rem;
+  margin: 1rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
