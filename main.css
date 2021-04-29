@@ -76,7 +76,9 @@ button.arButton {
   padding: 0.5rem 1rem;
   position: absolute;
   bottom: 1rem;
-  left: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 div.navigationButtons {
   display: flex;
